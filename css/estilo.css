@@ -1,0 +1,148 @@
+body{
+	background: url("../img/images (3).jpg");
+	background-size: 1900px;
+
+	}
+#s1{
+	width: 300px;
+	height: 460px;
+	margin: 25px 100px;
+	border-radius: 10px;
+	box-shadow: 2px 2px 4px 4px white;
+	padding: 10px;
+	
+}
+#s2{
+	width: 800px;
+	height: auto;
+	margin: -505px 450px;
+	border-radius: 10px;
+	box-shadow: 2px 2px 4px 4px white;
+	padding: 15px;
+}
+#s3{
+	width: 300px;
+	height: 430px;
+	margin: 700px 100px;
+	border-radius: 10px;
+	box-shadow: 2px 2px 4px 4px white;
+	padding: 10px;
+	text-align: center;
+}
+ th{
+ 	text-align: right;
+ }
+ #in{
+ 	color: white;
+ }
+ #contenedor_1{
+ 	float: left;
+ }
+ #contenedor_2{
+ 	float: right;
+ }
+ #id{
+ 	color: white;
+ 	font-size: 20px;
+ 	text-align:center;
+ }
+ p{
+ 	text-align: center;
+ 	padding-left: 30px;
+ }
+img{
+	width: 250px;
+	height: 250px;
+	margin: 1px 28px;
+	border-radius: 200px;
+}
+h1{
+	color: white;
+	font-family: helvetica;
+	font-size: 30px;
+
+}
+#inf{
+	color: white;
+	font-family: sans-seri;
+	font-size: 15px;
+}
+#info{
+	color: white;
+	text-align: left;
+}
+h2{
+	color: white;
+	padding-left: 50px;
+}
+#s1nom{
+	color: white;
+	padding-left: 5px;
+	font-family: Agency FB;
+	font-size: 25px;
+}
+#s1sub{
+	color: gray;
+
+}
+#iconF{
+	width: 32px;
+	height: 32px;
+}
+#iconI{
+	width: 32px;
+	height: 32px;
+}
+#iconS{
+	width: 32px;
+	height: 32px;
+}
+.accordion-container{
+ 	width: 100%;
+    margin: 0 0 20px;
+    clear:both;
+}
+.accordion-titulo {
+    position: relative;
+    display: block;
+    padding: 20px;
+    font-size: 24px;
+    font-weight: 300;
+    background: #2c3e50;
+    color: #fff;
+    text-decoration: none;
+}
+.accordion-titulo.open {
+    background: #16a085;
+    color: #fff;
+}
+.accordion-titulo:hover {
+    background: #1abc9c;
+}
+ 
+.accordion-titulo span.toggle-icon:before {
+    content:"+";
+}
+ 
+.accordion-titulo.open span.toggle-icon:before {
+    content:"-";
+}
+ 
+.accordion-titulo span.toggle-icon {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    font-size: 38px;
+    font-weight:bold;
+}
+ 
+.accordion-content {
+    display: none;
+    padding: 20px;
+    overflow: auto;
+    margin: 5px;
+}
+ 
+.accordion-content p{
+    margin:0;
+}
